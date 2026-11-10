@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LeakSpot: finding data leakage in machine-learning code and data"
+authors:
+  - family-names: Rahman
+    given-names: Md Shahinur
+version: 0.1.0
+date-released: 2026-11-10
+license: MIT
+repository-code: "https://github.com/itsmdshahin/leakspot"
+keywords: [data leakage, machine learning, static analysis, reproducibility]
+references:
+  - type: conference-paper
+    title: "Data Leakage in Notebooks: Static Detection and Better Processes"
+    authors:
+      - family-names: Yang
+        given-names: Chenyang
+      - family-names: Brower-Sinning
+        given-names: Rachel A.
+      - family-names: Lewis
+        given-names: Grace A.
+      - family-names: Kästner
+        given-names: Christian
+    year: 2022
+    doi: 10.1145/3551349.3556918
+  - type: article
+    title: "Leakage and the reproducibility crisis in machine-learning-based science"
+    authors:
+      - family-names: Kapoor
+        given-names: Sayash
+      - family-names: Narayanan
+        given-names: Arvind
+    year: 2023
+    journal: Patterns
+    doi: 10.1016/j.patter.2023.100804

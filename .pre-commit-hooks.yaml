@@ -1,0 +1,6 @@
+- id: leakspot
+  name: LeakSpot (ML data leakage)
+  description: Static check for data leakage in Python ML code and notebooks
+  entry: leakspot scan
+  language: python
+  types_or: [python, jupyter]

@@ -1,0 +1,13 @@
+# Copy to .github/workflows/leakspot.yml in your own repository.
+name: LeakSpot
+on: [pull_request]
+jobs:
+  leakage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install git+https://github.com/itsmdshahin/leakspot.git
+      - run: leakspot scan . --format github --fail-on high
